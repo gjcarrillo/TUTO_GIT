@@ -1,5 +1,7 @@
 # TUTO_GIT
 MI PRIMER PROYECTO GIT CREADO
+
+
 Configuración Básica
 Configurar Nombre que salen en los commits
 
@@ -199,6 +201,8 @@ Merge con master de un fork
   
   
   
+  
+  
   ##Lista de comandos útiles para Git
 
 ###Para clonar el repositorio de GitHub (sólo una vez):
@@ -231,6 +235,10 @@ git checkout -b nombre_branch: para bajar el contenido de un branch
 git pull origin nombre_branch: para actualizar el contenido de un branch (y empezar a trabajar en ese branch).
 git checkout -b nombre_branch: para descargar el contenido de un branch
 git checkout -- file.html: para ignorar los cambios hechos en local (cuando queremos hacer un push)
+
+
+
+
 
 
 
