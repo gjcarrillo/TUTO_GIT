@@ -200,6 +200,20 @@ Merge con master de un fork
 	git merge upstream/master
   
   
+  …or create a new repository on the command line
+echo "# Curso-styde" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/gjcarrillo/Curso-styde.git
+git push -u origin master
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/gjcarrillo/Curso-styde.git
+git push -u origin master
+
+  
   
   
   
